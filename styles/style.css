@@ -16,7 +16,7 @@
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 18%;
+    padding: 2% 0% 5% 18%;
 }
 
 .cabecalho__menu {
@@ -92,6 +92,7 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
+    padding: 0% 0% 7% 0%;
 }
 
 
@@ -127,13 +128,6 @@ body {
     width: 50%;
 }
 
-.apresentacao__conteudo__botoes-imagem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30px;
-  }
-
 .rodape {
     text-align: center;
     font-size: 1.5rem;
@@ -147,7 +141,25 @@ body {
 }
 
 @media (max-width: 1200px) {
-    .apresentacao{
+.cabecalho {
+    padding: 10%;
+}
+
+.cabecalho__menu {
+    justify-content: center;
+}
+
+.apresentacao    {
         flex-direction: column-reverse;
+        padding: 5%;
     }
+
+.apresentacao__conteudo {
+    width: auto;
+}
+
+.apresentacao__imagem {
+    padding: 0% 0% 0% 3%;
+}
+
 }
